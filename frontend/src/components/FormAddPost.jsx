@@ -61,7 +61,7 @@ const FormAddPost = () => {
                             <div className="field">
                                 <label className="label">Post</label>
                                 <div className="controll">
-                                    <input type="text" className="input" value={post}
+                                    <textarea type="text" className="input" value={post}
                                         onChange={(e) => setPost(e.target.value)} placeholder='Tulis disini...' />
                                 </div>
                             </div>
